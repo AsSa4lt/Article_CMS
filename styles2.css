@@ -1,0 +1,51 @@
+
+/* Article Detail Page Styles */
+.article-detail-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.article-title {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.article-content {
+    margin-bottom: 20px;
+    white-space: pre-wrap; /* Preserves spaces and line breaks */
+}
+
+.article-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-edit-button, .back-to-articles-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.article-edit-button {
+    background-color: #007bff;
+}
+
+.article-edit-button:hover {
+    background-color: #0056b3;
+}
+
+.back-to-articles-button {
+    background-color: #6c757d;
+}
+
+.back-to-articles-button:hover {
+    background-color: #545b62;
+}

@@ -8,7 +8,7 @@
 */
 return [
     'host'     => 'localhost',
-    'username' => '48982753',    
-    'password' => 'NVMWktd0',    
-    'dbname'   => 'stud_48982753', 
+    'username' => 'number',    
+    'password' => 'pass',    
+    'dbname'   => 'stud_number', 
 ];
